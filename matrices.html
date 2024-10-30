@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MATRICES CALCULATOR</title>
+    <script src="Matrices.js"></script>
+    <link rel="stylesheet" href="matrices.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Matrices Calculator</h1>
+    </header>
+    <nav>
+      <a href="index.html">
+        <img src="backbutton.png" alt="home_page">
+      </a>
+    </nav>
+    <!-- <hr /> -->
+    <main>
+      <div id="M1">
+        <p><strong>Matrix 1</strong></p>
+
+        <div>
+          <input type="number" id="A11" />
+          <input type="number" id="A12" />
+          <input type="number" id="A13" />
+        </div>
+        <div>
+          <input type="number" id="A21" />
+          <input type="number" id="A22" />
+          <input type="number" id="A23" />
+        </div>
+        <div>
+          <input type="number" id="A31" />
+          <input type="number" id="A32" />
+          <input type="number" id="A33" />
+        </div>
+      </div>
+      <hr />
+      <div id="M2">
+        <p><strong>Matrix 2</strong>:</p>
+
+        <div>
+          <input type="number" id="B11" />
+          <input type="number" id="B12" />
+          <input type="number" id="B13" />
+        </div>
+        <div>
+          <input type="number" id="B21" />
+          <input type="number" id="B22" />
+          <input type="number" id="B23" />
+        </div>
+        <div>
+          <input type="number" id="B31" />
+          <input type="number" id="B32" />
+          <input type="number" id="B33" />
+        </div>
+      </div>
+      <hr />
+      <div id="Operation">
+        <button onclick="Add()">Add</button>
+        <button onclick="Multiply()">Multiply</button>
+      </div>
+      <hr />
+      <div id="RM">
+        <p><strong>Resultant Matrix</strong>:</p>
+
+        <div>
+          <input type="number" id="C11" />
+          <input type="number" id="C12" />
+          <input type="number" id="C13" />
+        </div>
+        <div>
+          <input type="number" id="C21" />
+          <input type="number" id="C22" />
+          <input type="number" id="C23" />
+        </div>
+        <div>
+          <input type="number" id="C31" />
+          <input type="number" id="C32" />
+          <input type="number" id="C33" />
+        </div>
+      </div>
+      <br />
+    </main>
+  </body>
+</html>

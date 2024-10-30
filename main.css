@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.bebas-neue-regular {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+}
+
+body {
+    background-image: url('back2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+  background-color:rgb(49, 29, 29);
+  margin: 0;
+  padding: 0;
+}
+header {
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(8, 8, 8);
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  list-style-type: none;
+}
+nav a {
+  text-decoration: none;
+}
+nav a:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+main {
+  flex: 1;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+main img {
+  border: none;
+  padding-top: 100px;
+}
+main div {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main li {
+  color: antiquewhite;
+  list-style-type: none;
+}
+
+main div li:hover {
+  transform: scale(1.175);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 1px;
+}
+
+main div p {
+  color: aqua;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 35px;
+}
+footer {
+  color: aqua;
+  margin-top: 0;
+  padding: 2px;
+  border: none;
+  flex-direction: column;
+  background-color: rgba(14, 13, 13, 0.487);
+}
+#Footer {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
